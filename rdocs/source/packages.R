@@ -1,13 +1,14 @@
 if (!require("pacman")) install.packages("pacman")
 
-suppressPackageStartupMessages(
-  pacman::p_load(
-    tidyverse, data.table,
-    readxl, readr, ggcorrplot, cowplot,
-    RColorBrewer, scales, nortest, xlsx,
-    skimr,xtable,geobr,sf,ggrepel,
-    abjutils,grDevices
-  ))
+suppressMessages(suppressWarnings(
+  suppressPackageStartupMessages(
+    pacman::p_load(
+      tidyverse, data.table, readxl, readr, ggcorrplot, cowplot,
+      RColorBrewer, scales, nortest, xlsx,
+      skimr, xtable, geobr, sf, ggrepel, abjutils, grDevices
+    )
+  )
+))
 
 
 
