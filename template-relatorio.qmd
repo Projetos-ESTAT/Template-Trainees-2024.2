@@ -1,0 +1,20 @@
+---
+title: "Modelo Projeto - Quarto"
+
+# Nome do documento PDF gerado
+output-file: titulo do projeto
+---
+```{r}
+source("rdocs/source/packages.R")
+```
+
+
+
+
+# Introdução
+
+# Referencial Teórico
+
+# Análises
+
+# Conclusões
