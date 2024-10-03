@@ -10,6 +10,7 @@ source("rdocs/source/packages.R")
 ```
 
 ```{r}
+# Rodar apenas uma vez na vida!
 install.packages("tinytex")
 library(tinytex)
 install_tinytex()

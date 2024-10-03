@@ -4,6 +4,7 @@ project:
 
 
 lang: pt-BR
+
 format: 
   pdf:
     geometry: 
@@ -28,7 +29,9 @@ format:
 
 crossref: 
   fig-title: Figura
+  fig-prefix: ""
   tbl-title: Tabela
+  tbl-prefix: ""
   title-delim: ":"
 
 execute: 
