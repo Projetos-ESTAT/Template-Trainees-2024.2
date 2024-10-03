@@ -14,7 +14,13 @@ $$
 f_j=\frac{n_j}{n}
 $$
 
-Com: - $j = 1, \, ..., \, c$ - $n_j =$ número de observações da categoria $j$ - $n =$ número total de observações
+Com:
+
+-   $j = 1, \, ..., \, c$
+
+-   $n_j =$ número de observações da categoria $j$
+
+-   $n =$ número total de observações
 
 Geralmente, a frequência relativa é utilizada em porcentagem, dada por:
 
@@ -26,7 +32,11 @@ A média é a soma das observações dividida pelo número total delas, dada pel
 
 $$\bar{X}=\frac{\sum\limits_{i=1}^{n}X_i}{n}$$
 
-Com: - $i = 1, \, 2, \, ..., \, n$ - $n =$ número total de observações
+Com:
+
+-   $i = 1, \, 2, \, ..., \, n$
+
+-   $n =$ número total de observações
 
 ## Mediana
 
@@ -66,7 +76,13 @@ Para uma população, a variância é dada por:
 
 $$\sigma^2=\frac{\sum\limits_{i=1}^{N}\left(X_i - \mu\right)^2}{N}$$
 
-Com: - $X_i =$ $i$-ésima observação da população - $\mu =$ média populacional - $N =$ tamanho da população
+Com:
+
+-   $X_i =$ $i$-ésima observação da população
+
+-   $\mu =$ média populacional
+
+-   $N =$ tamanho da população
 
 ### Variância Amostral
 
@@ -74,7 +90,13 @@ Para uma amostra, a variância é dada por:
 
 $$S^2=\frac{\sum\limits_{i=1}^{n}\left(X_i - \bar{X}\right)^2}{n-1}$$
 
-Com: - $X_i =$ i-ésima observação da amostra - $\bar{X} =$ média amostral - $n =$ tamanho da amostra
+Com:
+
+-   $X_i =$ i-ésima observação da amostra
+
+-   $\bar{X} =$ média amostral
+
+-   $n =$ tamanho da amostra
 
 ## Desvio Padrão
 
@@ -86,7 +108,13 @@ Para uma população, o desvio padrão é dado por:
 
 $$\sigma=\sqrt{\frac{\sum\limits_{i=1}^{N}\left(X_i - \mu\right)^2}{N}}$$
 
-Com: - $X_i =$ i-ésima observação da população - $\mu =$ média populacional - $N =$ tamanho da população
+Com:
+
+-   $X_i =$ i-ésima observação da população
+
+-   $\mu =$ média populacional
+
+-   $N =$ tamanho da população
 
 ### Desvio Padrão Amostral
 
@@ -94,7 +122,13 @@ Para uma amostra, o desvio padrão é dado por:
 
 $$S=\sqrt{\frac{\sum\limits_{i=1}^{n}\left(X_i - \bar{X}\right)^2}{n-1}}$$
 
-Com: - $X_i =$ i-ésima observação da amostra - $\bar{X} =$ média amostral - $n =$ tamanho da amostra
+Com:
+
+-   $X_i =$ i-ésima observação da amostra
+
+-   $\bar{X} =$ média amostral
+
+-   $n =$ tamanho da amostra
 
 ## Coeficiente de Variação
 
@@ -102,7 +136,11 @@ O coeficiente de variação fornece a dispersão dos dados em relação à médi
 
 $$C_V=\frac{S}{\bar{X}}\times 100$$
 
-Com: - $S =$ desvio padrão amostral - $\bar{X} =$ média amostral
+Com:
+
+-   $S =$ desvio padrão amostral
+
+-   $\bar{X} =$ média amostral
 
 ## Coeficiente de Assimetria
 
@@ -110,7 +148,15 @@ O coeficiente de assimetria quantifica a simetria dos dados. Um valor positivo i
 
 $$C_{Assimetria} = \frac{1}{n}\times\sum\limits_{i=1}^{n} \left(\frac{X_i - \bar{X}}{S}\right)^3 $$
 
-Com: - $X_i =$ i-ésima observação da amostra - $\bar{X} =$ média amostral - $S=$ desvio padrão amostral - $n=$ tamanho da amostra
+Com:
+
+-   $X_i =$ i-ésima observação da amostra
+
+-   $\bar{X} =$ média amostral
+
+-   $S=$ desvio padrão amostral
+
+-   $n=$ tamanho da amostra
 
 ## Curtose
 
@@ -118,7 +164,15 @@ O coeficiente de curtose quantifica o achatamento da função de distribuição 
 
 $$Curtose = \frac{1}{n}\times\sum\limits_{i=1}^{n}\left(\frac{ X_i-\bar{X} }{S} \right)^4 - 3$$
 
-Com: - $X_i =$ i-ésima observação da amostra - $\bar{X} =$ média amostral - $S =$ desvio padrão amostral - $n =$ tamanho da amostra
+Com:
+
+-   $X_i =$ i-ésima observação da amostra
+
+-   $\bar{X} =$ média amostral
+
+-   $S =$ desvio padrão amostral
+
+-   $n =$ tamanho da amostra
 
 Uma distribuição é dita mesocúrtica quando possui curtose nula. Quando a curtose é positiva, a distribuição é leptocúrtica (mais afunilada e com pico). Valores negativos indicam uma distribuição platicúrtica (mais achatada).
 
@@ -372,9 +426,7 @@ Os testes de normalidade são utilizados para verificar se uma variável aleató
 O **Teste de Shapiro-Wilk** é utilizado para verificar a aderência de uma variável quantitativa ao modelo da Distribuição Normal, sendo mais recomendado para amostras pequenas. A suposição de normalidade é importante para a determinação do teste a ser utilizado. As hipóteses a serem testadas são:
 
 ```{=latex}
-\begin{center}
 \hipoteses{A variável segue uma distribuição Normal}{A variável segue outro modelo}
-\end{center}
 ```
 A amostra deve ser ordenada de forma crescente para que seja possível obter as estatísticas de ordem. A estatística do teste é dada por:
 
@@ -1215,7 +1267,6 @@ $$t_{Pearson} = \frac{r_{Pearson} \sqrt{n-2}}{\sqrt{1-r_{Pearson}^2}} \sim t_{n-
 
 Assim, sob $H_{0}$, $t_{Pearson}$ segue uma distribuição \textit{t}-Student com ($n - 2$) graus de liberdade.
 
-
 ## Teste de Correlação de Postos de Spearman
 
 O coeficiente de correlação de Spearman é uma medida não paramétrica que verifica, por meio de postos de variáveis quantitativas ou qualitativas ordinais, o grau de correlação linear entre duas variáveis. Esse coeficiente varia entre os valores -1 e 1. O valor zero significa que não há relação linear entre as variáveis. Quando o valor do coeficiente $r$ é negativo, diz-se ter uma relação de grandeza inversamente proporcional entre as variáveis. Analogamente, quando $r$ é positivo, afirma-se que as duas variáveis são diretamente proporcionais.
@@ -1229,14 +1280,12 @@ $$
 
 no qual
 
-- $x_i=$ i-ésimo valor da variável $X$
-- $y_i=$ i-ésimo valor da variável $Y$
-- $R(x_i)=$ posto atribuído a $x_{i}$, quando comparado a outros valores de $x$
-- $R(y_i)=$ posto atribuído a $y_{i}$, quando comparado a outros valores de $y$
-- $n=$ número total de observações na amostra
-- $r_{Spearman}=$ coeficiente de correlação de postos de Spearman amostral
-
-
+-   $x_i=$ i-ésimo valor da variável $X$
+-   $y_i=$ i-ésimo valor da variável $Y$
+-   $R(x_i)=$ posto atribuído a $x_{i}$, quando comparado a outros valores de $x$
+-   $R(y_i)=$ posto atribuído a $y_{i}$, quando comparado a outros valores de $y$
+-   $n=$ número total de observações na amostra
+-   $r_{Spearman}=$ coeficiente de correlação de postos de Spearman amostral
 
 **Observação:** ao ordenar de forma crescente as observações $x_1,x_2,...,x_n,y_1,y_2,...,y_n$ afirma-se que $R(X_1)=1$ se $x_1$ é o menor valor da amostra, $R(X_3)=2$ se $x_3$ é o segundo menor valor da amostra, $R(X_4)=3$ se $x_4$ é o terceiro menor valor, e assim sucessivamente. Quando há empates nas observações, o posto atribuído a elas é a média dos postos que teriam se não houvesse empate. Por exemplo, se $X$ assume os valores 9, 5, 6 e 9, tem-se duas observações com mesmo valor e, assim, seus postos serão obtidos por meio da média entre 3 e 4, que seriam seus postos se não houvesse empate.
 
@@ -1252,28 +1301,24 @@ Além disso, a hipótese alternativa também pode ser escrita para testar se a c
 
 A estatística T do teste ($T=r_{Spearman}$), se $H_0$ é verdadeira, tem distribuição:
 
-- **a)** **Pequenas amostras e sem/poucos empates:** exata com os valores apresentados em uma tabela.
-- **b)** **Grandes amostras ou muitos empates:** aproximada pela Normal Padrão (Normal com média 0 e variância 1), tal que:
-$$
-w_p = \frac{z_p}{\sqrt[]{(n-1)}}
-$$
+-   **a)** **Pequenas amostras e sem/poucos empates:** exata com os valores apresentados em uma tabela.
+-   **b)** **Grandes amostras ou muitos empates:** aproximada pela Normal Padrão (Normal com média 0 e variância 1), tal que: $$
+    w_p = \frac{z_p}{\sqrt[]{(n-1)}}
+    $$
 
 no qual
 
-- $w_p=$ quantil de ordem p da distribuição que a estatística T segue
-- $z_p=$ quantil de ordem p da distribuição Normal padrão
-- $n=$ número total de observações na amostra
-
+-   $w_p=$ quantil de ordem p da distribuição que a estatística T segue
+-   $z_p=$ quantil de ordem p da distribuição Normal padrão
+-   $n=$ número total de observações na amostra
 
 ## Teste de Correlação de Postos de Kendall
 
 Esse teste tem como objetivo verificar, por meio da comparação de postos, se existe independência entre as variáveis, avaliando a concordância e discordância dos pares. As variáveis em estudo podem ser qualitativas ordinais ou quantitativas. Assim, o total de pares é $\binom{n}{2}$, em que $n$ é o tamanho da amostra e $\binom{n}{2}$ representa a combinação das $n$ observações da amostra tomadas de duas a duas. Considere, então, que $N_{c}$ representa o número de pares concordantes e $N_{d}$ é o número de pares discordantes. Os pares são concordantes se ambos os valores de $X$ e $Y$ de uma observação (um par) são maiores que os valores de $X$ e $Y$ de outra observação; os pares são discordantes se os valores das variáveis de uma observação diferem os valores de outra observação em direções opostas (por exemplo, $X_{1} > X_{2}$ e $Y_{1} < Y_{2}$).
 
-As hipóteses para esse teste podem ser escritas como:
-\hipoteses{$X$ e $Y$ são independentes (não há correlação entre elas)}{Há correlação de Kendall entre $X$ e $Y$}
+As hipóteses para esse teste podem ser escritas como: \hipoteses{$X$ e $Y$ são independentes (não há correlação entre elas)}{Há correlação de Kendall entre $X$ e $Y$}
 
 A estatística do teste pode ter duas formas que variam conforme a presença de empates entre os pares:
-
 
 ```{=latex}
 \begin{itemize}
@@ -1310,10 +1355,7 @@ Para realizar a comparação dos pares e concluir se serão concordantes ou disc
     \item Se $X_{j} = X_{i}$, não há comparação
 \end{itemize}
 ```
-
-
 ## Correlação Parcial de Kendall
-
 
 Em alguns casos, quando se observa a correlação entre duas variáveis, há possibilidade de que essa relação ocorra devido à associação de cada uma dessas variáveis com uma terceira. Na correlação parcial, os efeitos desta terceira variável ($Z$) sobre as outras duas variáveis ($X$ e $Y$) são controlados, mantendo-a constante.
 
@@ -1350,11 +1392,9 @@ Para o cálculo desse coeficiente, comparam-se os postos atribuídos às observa
     \item Se $X$ e $Y$ forem discordantes, então a frequência é atribuída à célula $D =$ (-, -)
 \end{itemize}
 ```
-
 Portanto, o coeficiente de correlação parcial por postos de Kendall entre duas variáveis, considerando uma terceira variável como constante, é dado por:
 
 $$ \tau_{XY, Z} = \frac{AD - BC}{\sqrt{(A + D)(C + D)(A + C)(B + D)}} $$
-
 
 ## Teste de Walsh
 
@@ -1366,13 +1406,11 @@ As hipóteses para esse teste são baseadas na mediana das diferenças ($d_{i}'s
 
 Para realizar o teste, é preciso ordenar os $d_{i}'s$ e consultar a tabela H - Siegel que indicará a regra de decisão do teste.
 
-
 ## Teste de Cochran
 
 Esse teste tem como objetivo verificar se existe mudanças significativas entre três ou mais grupos em diferentes tratamentos. Ele é aplicado a variáveis nominais ou ordinais dicotômicas e suas frequências são dispostas em uma tabela de contingência (n x k).
 
-As hipóteses para esse teste são:
-\hipoteses{Não existe diferença entre os tratamentos}{Existe diferença entre os tratamentos}
+As hipóteses para esse teste são: \hipoteses{Não existe diferença entre os tratamentos}{Existe diferença entre os tratamentos}
 
 Para realizar o teste, é utilizada a seguinte estatística:
 
@@ -1385,15 +1423,13 @@ em que:
 -   $L{i} =$ total na linha $i$
 -   $G_{j} =$ total na coluna $j$
 
-
 Então, a estatística $Q$ do teste segue distribuição Qui-Quadrado com $k - 1$ graus de liberdade.
-
 
 # Teste de Diferença de Proporções
 
 ## Comparação de Proporções em Duas Populações
 
-Considere duas amostras independentes $x_1,\, \ldots , \, x_n$ e $y_1,\, \ldots , \, y_n$. O objetivo é comparar se a proporção de indivíduos que possuem uma certa característica é a igual nas duas populações. 
+Considere duas amostras independentes $x_1,\, \ldots , \, x_n$ e $y_1,\, \ldots , \, y_n$. O objetivo é comparar se a proporção de indivíduos que possuem uma certa característica é a igual nas duas populações.
 
 As hipóteses do teste são:
 
@@ -1405,17 +1441,15 @@ $$Z=\frac{\hat{p}_X-\hat{p}_Y}{\sqrt{\hat{p}_c(1-\hat{p}_c)\left(\frac{1}{n_X}+\
 
 Caso o p-valor obtido através do teste seja inferior ao nível $\alpha$ de significância assumido, decide-se por rejeitar a hipótese nula de que as proporções são iguais nas duas populações.
 
-
 -   $\hat{p}_X$ é a proporção de indivíduos com a característica na amostra $X$
 -   $\hat{p}_Y$ é a proporção de indivíduos com a característica na amostra $Y$
 -   $\hat{p}_c=\frac{n_X\hat{p}_x+n_Y\hat{p}_Y}{n_X+n_Y}$ é a proporção combinada das duas amostras
 -   $n_X$ é o tamanho da amostra provinda de $X$
 -   $n_Y$ é o tamanho da amostra provinda de $Y$
 
-
 ## Razão de Chances
 
-Se um evento ocorre com probabilidade $p$, a chance de ocorrência desse evento é definida como: 
+Se um evento ocorre com probabilidade $p$, a chance de ocorrência desse evento é definida como:
 
 $$\hat{chance}=\frac{p}{1-p}$$
 
@@ -1425,13 +1459,11 @@ A Razão de Chances (\textit{odds ratio}) é o resultado da divisão das chances
 
 $$\hat{RC}=\frac{\hat{chance}_1}{\hat{chance}_2}=\frac{\frac{p_1}{1-p_1}}{\frac{p_2}{1-p_2}}$$
 
-
 -   Valores de $\hat{RC}$ menores que 1 indicam que a chance do evento ocorrer em indivíduos do grupo 2 é maior que a chance do evento ocorrer em indivíduos do grupo 1
 
 -   Valores de $\hat{RC}$ próximos a 1 indicam que a chance do evento ocorrer no grupo 1 é igual a chance do evento ocorrer em indivíduos do grupo 2
 
 -   Valores de $\hat{RC}$ maiores que 1 indicam que a chance do evento ocorrer em indivíduos do grupo 1 é maior que a chance do evento ocorrer em indivíduos do grupo 2
-    
 
 ## Intervalo de Confiança para a Razão de Chances
 
@@ -1456,7 +1488,6 @@ $$IC(\hat{RC})_{95\%}=exp\{log(\hat{RC})\pm z_{(\alpha/2)}\times\sqrt{\hat{Var}(
 
 \par Caso o intervalo de confiança de 95\% de probabilidade não inclua o valor 1, conclui-se que a chance de ocorrência do evento é estatisticamente diferente entre os grupos, com 5\% de significância.
 ```
-
 ## Risco Relativo
 
 ```{=latex}
@@ -1472,9 +1503,6 @@ $$RR=\frac{p1}{p2}$$
     \item Valores de RR maiores que 1 indicam que a probabilidade do evento ocorrer em indivíduos do grupo 1 é menor que a probabilidade do evento ocorrer em indivíduos do grupo 2
 \end{itemize}
 ```
-
-
-
 # Análise de Regressão
 
 ## Análise de Regressão Linear
@@ -1597,7 +1625,6 @@ $$
 
 O parâmetro $\beta_{j}$ corresponde ao efeito do aumento de uma unidade de $X_{j}$ sobre o logaritmo neperiano da chance de sucesso $(Y=1)$, mantendo as demais variáveis constantes. Dessa forma, $\displaystyle e^{\beta_j}$ tem como efeito a multiplicação na *odds* de $Y=1$ para o aumento de uma unidade de $X_{j}$, mantendo as variáveis constantes.
 
-
 ## Modelo *Probit*
 
 O modelo *probit* é um tipo de regressão em que a variável resposta é dicotomizada em "sucesso" $\:$ e "fracasso", assumindo-a como uma distribuição Binomial. Utiliza-se a inversa da função de distribuição acumulada da normal padronizada como função de ligação e o valor esperado é modelado por uma combinação linear de parâmetros desconhecidos.
@@ -1607,7 +1634,6 @@ O modelo pode ser escrito como:
 $$ \phi^{-1}(\pi_i(X_i))=\beta_0+\beta_1X_1+...+\beta_kX_k $$
 
 Os coeficientes do modelo *probit* podem ser interpretados como a diferença no escore $Z$ associado a cada diferença de uma unidade na variável preditora, mantendo as demais constantes.
-
 
 ## Análise de Regressão Logística Multinomial
 
@@ -1657,7 +1683,6 @@ $$
 Em que $g$ é a exposição dos indivíduos do estudo, que pode ser dada por tempo de exposição, número de expostos, entre outros.
 
 O termo $e^{\beta_j}$ fornece o efeito sobre a razão de chances para o aumento de uma unidade de $X_j$, mantendo as demais variáveis constantes.
-
 
 # Análise Multivariada
 
@@ -1729,7 +1754,6 @@ Considere a seguinte tabela:
 \end{tabular}
 \end{table}
 ```
-
 onde $a$ é a frequência do par (1,1), $b$ representa o par (1,0), e assim por diante. Pela tabela, podem-se desenvolver os coeficientes de similaridade:
 
 **I) Concordância simples:**
@@ -1984,5 +2008,3 @@ Seja uma amostra original $X = \{x_1, \, x_2, \, \ldots, \, x_n\}$ e a estatíst
 1.  Geram-se amostras *bootstrap* $X(1), X(2), \ldots, X(B)$, com reposição de $X$.
 2.  Calculam-se as estimativas da estatística de interesse: $\hat{\theta}(b) = F(X_b)$, $b = 1, \, 2, \, \ldots, \, B$.
 3.  Calcula-se o erro padrão *Bootstrap*, $\hat{S}_{Boot}$ como: $$\hat{S}_{Boot} = \sqrt{\sum_{b=1}^{B}\frac{(\hat{\theta}(b)-\hat{\theta}(.*))^2}{B-1}},$$ onde $\hat{\theta}(.*) = \sum_{b=1}^{B}\frac{\hat{\theta}(b)}{B}$.
-
-
