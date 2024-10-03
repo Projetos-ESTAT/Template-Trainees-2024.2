@@ -11,9 +11,16 @@ source("rdocs/source/packages.R")
 
 ```{r}
 # Rodar apenas uma vez na vida!
-install.packages("tinytex")
+## Instalando o tinytex(pacote apenas)
+### CRAN version
+install.packages('tinytex')
+
+### or the development version on GitHub
+remotes::install_github('rstudio/tinytex')
+
+## Baixando o tinytex
 library(tinytex)
-install_tinytex()
+tinytex::install_tinytex()
 ```
 
 
