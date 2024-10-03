@@ -9,6 +9,11 @@ output-file: titulo do projeto
 source("rdocs/source/packages.R")
 ```
 
+```{r}
+install.packages("tinytex")
+library(tinytex)
+install_tinytex()
+```
 
 
 
