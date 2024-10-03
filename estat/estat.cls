@@ -238,7 +238,7 @@ range-phrase = { \GetTranslation{to (numerical range)} },
     \end{scope}
 
     \begin{scope}[node distance=0.25cm]
-        \draw (current page.south) node(logo)[anchor=south] at +(0, 3cm){\includegraphics[height=1.5cm]{estat/imagens/estat.png}};
+        \draw (current page.south) node(logo)[anchor=south] at +(0, 3cm){\includegraphics[height=2.5cm]{estat/imagens/estat.png}};
         \node(date)[above= of logo, align=flush center]{Brasília, \today.};
     \end{scope}
 \end{tikzpicture}
