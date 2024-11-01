@@ -21,6 +21,8 @@ remotes::install_github('rstudio/tinytex')
 ## Baixando o tinytex
 library(tinytex)
 tinytex::install_tinytex()
+
+
 ```
 
 
