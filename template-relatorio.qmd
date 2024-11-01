@@ -9,6 +9,7 @@ output-file: titulo do projeto
 source("rdocs/source/packages.R")
 ```
 
+
 ```{r}
 # Rodar apenas uma vez na vida!
 ## Instalando o tinytex(pacote apenas)
